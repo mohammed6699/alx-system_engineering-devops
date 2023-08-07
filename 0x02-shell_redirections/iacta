@@ -1,3 +1,6 @@
 hello
 I am Mohammed 
 An ALX SE student
+
+An ALX SE student tail -n 1
+tail -n 1 iacta
