@@ -1,0 +1,2 @@
+#!/bash/bin
+head -v /etc/passwd /etc/hosts
