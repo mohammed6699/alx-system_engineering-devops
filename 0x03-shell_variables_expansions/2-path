@@ -1,2 +1,2 @@
 #!/bin/bash
-$ export action = "$home/action:$action"
+$ export path="$home/action:$path"
