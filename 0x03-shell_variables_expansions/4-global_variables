@@ -1,2 +1,2 @@
 #!/bin/bash
-prientenv 
+find . -mindepth -1 | wc -l
