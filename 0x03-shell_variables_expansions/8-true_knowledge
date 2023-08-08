@@ -1,2 +1,2 @@
 #!/bin/bash
-echo =28 | cat -e
+echo =28 | cat 
