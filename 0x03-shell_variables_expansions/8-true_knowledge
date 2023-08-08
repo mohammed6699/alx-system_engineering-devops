@@ -1,2 +1,2 @@
 #!/bin/bash
-export TRUEKNOWLEDGE=28 | cat -e
+eho $(($TRUEKNOWLEDGE=28))
