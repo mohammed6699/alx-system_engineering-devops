@@ -1,2 +1,2 @@
 #!/bin/bash
-export DIVEDE=2, export POWER=10 |result$((POWER/DIVEDE)) | echo $result
+echo $((POWER/DIVEDE)) 
