@@ -1,3 +1,2 @@
 #!/bin/bash
 $DIVEDE,$POWER | echo$(($POWER/DEVEDE))
-
