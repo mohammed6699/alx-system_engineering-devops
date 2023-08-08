@@ -1,2 +1,2 @@
-#!/bin/bash
-$DIVEDE,$POWER | echo$(($POWER/DEVEDE))
+i!/bin/bash
+DIVEDE=2 POWER=10 |result$((POWER/DIVEDE)) | echo $result
