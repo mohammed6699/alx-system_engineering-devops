@@ -1,2 +1,2 @@
 #!/bin/bash
-echo =28 | cat 
+export TRUEKNOWLEDGE= 28 | cat -e
