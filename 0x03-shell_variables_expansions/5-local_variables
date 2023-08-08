@@ -1,2 +1,2 @@
 #!/bin/bash
-prientenv $path
+set $path
