@@ -1,2 +1,2 @@
-i!/bin/bash
-echo "hello $u MyUser"
+#!/bin/bash
+echo "hello $ MyUser"
