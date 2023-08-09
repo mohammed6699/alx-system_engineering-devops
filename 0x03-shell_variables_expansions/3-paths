@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1t | $PATH=/bin::::/home:/usr:::::/home/me
+wc -l $PATH=/bin::::/home:/usr:::::/home/me
