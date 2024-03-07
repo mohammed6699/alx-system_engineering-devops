@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# # This script is displaying "Best School" 10 times using while loop
+
 # on the 9th iteration, display "Hi" before "Best School"
 
 count=0
