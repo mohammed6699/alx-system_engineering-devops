@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#display pid with the preocess name
+pgrep -flx ".*bash*."
