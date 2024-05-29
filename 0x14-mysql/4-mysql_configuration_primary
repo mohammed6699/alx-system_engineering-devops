@@ -1,0 +1,19 @@
+#
+# MYSQL conf. file
+#
+
+[mysqld]
+pid-file	= /var/run/mysqld/mysqld.pid
+socket 		= /var/run/mysqld/mysqld.sock
+datadie		= /var/run/mysql
+log-error	= /var/log/mysql/error.log
+# only accept connections from local host
+bind-address	= 0.0.0.0
+# disabling symbolic link for security reasons
+symbolic-links = 0
+# distingash server in a replication setup
+server-id	=1
+# mysql binary file
+log_bin		= /var/log/mysql/mysql-bin.log
+#choose database to replicate
+binlog_do_db	= tyrell_corp

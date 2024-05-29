@@ -1,0 +1,21 @@
+#
+# MYSQL Conf. file
+#
+
+[mysqld]
+pid-file        = /var/run/mysqld/mysqld.pid
+socket          = /var/run/mysqld/mysqld.sock
+datadie         = /var/run/mysql
+log-error       = /var/log/mysql/error.log
+#accept connection from local host only
+bind-address	= 127.0.0.1
+#disable symbolic link
+symbolic-links=0
+#server-id
+server-id	= 2
+#mysql binary log file
+log_bin         = /var/log/mysql/mysql-bin.log
+#database to replicate
+binlog_do_lb	= tyrell_corp
+#defines location of rep_file
+relay_log	= /var/log/mysql/mysql-relay-bin.log
