@@ -13,13 +13,13 @@ if __name__ == "__main__":
     USERNAME = user.get("USERNAME")
     params = {"userId": user_id}
     todos_response = requests.get(url + "todos", params=params)
-    todos = todos_response.json()
+    
     data_to_export = {user_id :[]}
 
     for todo in todos:
         task_info = {
-                "task": todo.get("title")
-                comleted: todo.get("completed")
+                "task": todo.get("title"),
+                "comleted": todo.get("completed"),
                 "USERNAME": USERNAME
                 }
         data_to_export[user_id].append(task_info)
