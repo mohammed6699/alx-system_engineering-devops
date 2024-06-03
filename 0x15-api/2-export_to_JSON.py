@@ -10,6 +10,10 @@ if __name__ == "__main__":
     user_id = sys.argv[1]
     user_response = requests.get(url + "user/{}".format(user_id))
     user = user_response.json()
+    USERNAME = user.get("USERNAME")
+    params = {"userId": user_id}
+    todos_response = requests.get(url + "todos", params=params)
+    todos = todos_response.json()
     data_to_export = {user_id :[]}
 
     for todo in todos:
