@@ -6,7 +6,7 @@ sudo vim /etc/nginx/sites-available/default
 server {
 	listen 80 default-server;
 	listen [::]: 80 default-server;
-	use server domain
+	# use server domain
 	server-name 54.165.117.227;
 	# customize Http response
 	add_header X_served-By 508504-web-01;
